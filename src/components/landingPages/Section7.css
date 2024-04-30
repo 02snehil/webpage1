@@ -1,0 +1,95 @@
+.section7-container7{
+    background-color: #171421;
+    display: flex;
+    justify-content: center;
+}
+.container7-divisions{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 100px;
+}
+.container7-divisions-heading{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;   
+}
+.container7-divisions-paragraph{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: left;
+    width: 60%;
+    margin-top: 20px;
+}
+.container7-divisions-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.slider-wrapper {
+    display: inline-block;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+    display: inline-flex;
+}
+.container7-divisions-slider1 img,
+.container7-divisions-slider2 img,
+.container7-divisions-slider3 img,
+.container7-divisions-slider4 img,
+.container7-divisions-slider5 img,
+.container7-divisions-slider6 img
+{
+    border-radius: 10px;
+}
+.container7-divisions-slider1,
+.container7-divisions-slider2,
+.container7-divisions-slider3,
+.container7-divisions-slider4,
+.container7-divisions-slider5,
+.container7-divisions-slider6
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 10px;
+    flex-shrink: 0; /* Ensure that the divisions do not shrink */
+    margin-right: 0px; /* Adjust spacing between divisions */
+}
+
+.container7-divisions-slider-name{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-bottom: 2px;
+}
+.container7-divisions-slider-position{
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.container7-divisions-slider-line{
+    background: hsla(254, 25%, 10%, 1);
+    background: linear-gradient(90deg, hsla(254, 25%, 10%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(254, 25%, 10%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(254, 25%, 10%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(254, 25%, 10%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(254, 25%, 10%, 1) 0%, hsla(0, 0%, 100%, 1) 50%, hsla(254, 25%, 10%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#171421", endColorstr="#FFFFFF", GradientType=1 );
+    width: 120px;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}

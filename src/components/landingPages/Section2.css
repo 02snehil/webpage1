@@ -1,0 +1,277 @@
+.section2-container2{
+    display: flex;
+    flex-direction: column;
+    background-color: #171421;
+    /* width: 100%; */
+}
+.section2-images img{
+     margin-left: 300px;
+}
+.section2-heading p{
+    background: linear-gradient(90deg, rgba(215,159,123,1) 15%, rgba(210,196,239,1) 60%, rgba(144,112,213,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 56px;
+    text-align: center;
+    margin-top: -430px;
+    font-weight: 650;
+}
+.section2-paragraph{
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -220px;
+}
+.section2-applynow-button button{
+    border: none;
+    border-radius: 10px; /* Adjust border-radius */
+    color: #FFFFFF;
+    background-color: #683FBE;
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 18px; /* Adjust font size */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 192.77px;
+    height: 53.59px;
+    margin-left: 668px;
+    margin-top: 20px;
+    
+
+}
+.section2-applynow-button button:hover{
+    background-color: #512a8e;
+}
+
+.section2-video video{
+    margin-top: 35px;
+    width: 1088px;
+    height: 556px;
+    margin-left: 220px;
+}
+.section2-video img{
+    margin-top: 21px;
+    width: 1088px;
+    height: 556px;
+    margin-left: 220px;
+    cursor:'pointer';
+}
+.section2-inside-divisions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 94%;
+
+}
+.section2-inside-division-text{
+    width: 49%;
+    padding: 10px;
+    align-items: left;
+}
+.section2-text-row1{
+    color: #8665CC;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+}
+.section2-text-row2{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.section2-text-row3{
+    color: aliceblue;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 15px;
+    margin-right: 5%;
+
+}
+.section2-inside-division-divisions{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 21%;
+    
+}
+.section2-divisions-division1{
+    background-color: #2a194c;
+    border-radius: 10px;
+    padding: 10px;
+    width: 360px;
+    height: 100;
+}
+.section2-divisions-division2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+}
+.section2-division1-text{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 600px;
+}
+.section2-division1-date{
+    color: #FBD975;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+.section2-division2-div1,
+.section2-division2-div2
+{
+    background-color: #2a194c;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 125px;   
+}
+.section2-division2-div1-number{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 60px;
+    color: #f3b998;
+    font-weight: 700;
+    text-align: center;
+}
+.plus-icon{
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 20px;
+    
+}
+.section2-division2-div1-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+.section2-division2-div2{
+    margin-left: 10px;
+}
+.section2-division2-div2-number{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 60px;
+    color: #B3E3F7;
+    font-weight: 700;
+    text-align: center;
+}
+.section2-division2-div2-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+
+
+/* Section2.css */
+
+/* Base styles for desktop */
+
+/* Your existing CSS styles here */
+
+/* Responsive styles for mobile screens */
+
+@media screen and (max-width: 768px) {
+    .section2-container2{
+        /* padding: 15px; */
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 100%;
+    }
+    .section2-images img {
+      
+      display: none;
+    }
+    .section2-heading{
+        margin-top: 100px;
+    }
+  
+    .section2-heading p {
+      font-size: 46px; /* Decrease font size for smaller screens */
+      margin-top: -50px; /* Adjust margin for smaller screens */
+      text-align: left;
+      margin-left: 30px;
+    }
+  
+    .section2-paragraph {
+      font-size: 16px; /* Decrease font size for smaller screens */
+      margin-top: -30px; /* Adjust margin for smaller screens */
+      text-align: left;
+      justify-content: space-evenly;
+      margin-left: 30px;
+      font-weight: 300;
+      margin-right: 30px;
+    }
+  
+    .section2-applynow-button button {
+      width: 55%; /* Make the button fill the width of the container */
+      margin-left: 70px; /* Remove left margin */
+      margin-top: 20px; /* Add some top margin */
+      
+    }
+  
+    .section2-video video,
+    .section2-video img {
+      width: 90%; /* Make the video/image fill the width of the container */
+      height: auto; /* Maintain aspect ratio */
+      margin: 40px 0; /* Add some vertical margin */
+      padding-left: 20px;
+    }
+  
+
+
+    .section2-inside-divisions {
+      flex-direction: column; /* Stack divisions vertically */
+      margin-left: 15px; 
+    }
+  
+    .section2-inside-division-text {
+      width: 90%; /* Make text division fill the width */
+      padding: 0 20px; /* Add some horizontal padding */
+    }
+    .section2-text-row1{
+        font-size: 16px;
+    }
+    .section2-text-row2{
+        font-size: 25px;
+    }
+    .section2-inside-division-divisions{
+        width: 100%
+    }
+    .section2-divisions-division1{
+        width: 85%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .section2-divisions-division2{
+        width: 95%;
+       
+    }
+  
+    .section2-division1-date {
+      font-size: 40px; /* Decrease font size for smaller screens */
+      
+    }
+  
+    .section2-division2-div1,
+    .section2-division2-div2 {
+      width: 100%; /* Make divisions fill the width */
+      max-width: 300px; /* Limit the maximum width */
+      margin-left: 10px;
+      height: 100px;
+    }
+  }
+  

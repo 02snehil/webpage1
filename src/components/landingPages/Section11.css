@@ -1,0 +1,25 @@
+.section11-container11{
+    background-color: #171421;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container11-divisions{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 100px;
+    
+}
+.container11-divisions-heading{
+    font-size: 40px;
+    color: aliceblue;
+    align-items: left;
+}
+.container11-divisions-details{
+    font-size: 18px;
+    color: aliceblue;
+    align-items: left;
+    margin-top: 30px;
+    width: 60%;
+}

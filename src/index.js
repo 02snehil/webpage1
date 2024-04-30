@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Section1 from './components/Main/Section1';
+import Section14 from './components/Main/Section14';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Section1 />
     <App />
+    <Section14 />
   </React.StrictMode>
 );
 

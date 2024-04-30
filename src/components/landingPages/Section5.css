@@ -1,0 +1,135 @@
+.section5-container5{
+    background-color: #171421;
+}
+.container5-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container5-content-heading{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}.container5-content-details{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.container5-content-details-weeks{
+    width: 12%;
+    padding-left: 30px;
+}
+.container5-content-details-weeks button{
+    background-color: transparent;
+    border: transparent;
+    color: #9E9E9E;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;     
+}
+.container5-content-details-weeks button:hover,
+.container5-content-details-weeks button.active-week
+{
+      color: #FFFFFF;
+}
+.container5-content-details-line{
+    background: hsla(0, 0%, 10%, 1);
+
+    background: linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#191919", endColorstr="#D9D9D9", GradientType=1 );
+
+    width: 1px;
+    margin-top: 5px;
+}
+.container5-content-details-content{
+    padding-left: 50px;
+    width: 53%;
+    margin-top: 40px;
+}
+.container5-content-details-content-week1{
+    text-align: left;
+}
+.week1-heading{
+    color: #a48bd9;
+    font-size: 28px;
+    font-weight: 700;
+}
+.week1-content{
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.week1-content img{
+    margin-top: 2px;
+    height: 17px;
+    width: 19px;
+}
+.container5-content-details-curriculum{
+    background-color: #221D32;
+    border-radius: 12px;
+    width: 350px;
+    height: 255px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.container5-curriculum-heading{
+    background: linear-gradient(81deg, #ffffff, #8a8a8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.container5-curriculum-details{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.container5-curriculum-button button{
+    border: none;
+    border-radius: 10px; /* Adjust border-radius */
+    color: #FFFFFF;
+    background-color: #683FBE;
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 15px; /* Adjust font size */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 310px;
+    height: 40px;
+    margin-top: 30px;
+}
+.container5-curriculum-button button:hover{
+    background-color: #512a8e;
+}
+
+@media only screen and (max-width: 768px) {
+    .container5-content,
+    .container5-content-details{
+        display: flex;
+      flex-direction: column;
+    }
+    .container5-content-details-weeks {
+      overflow-x: auto;
+      white-space: nowrap;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+    }
+    .container5-content-details-weeks {
+      
+    }
+    .week-buttons button {
+      margin-right: 10px;
+    }
+  }
+  

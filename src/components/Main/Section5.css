@@ -1,0 +1,140 @@
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   
+
+}
+.videos5_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+.videos5_2{
+    border: solid 1px #f9f9f9;
+    padding: 2px;
+    padding-top: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.videos5_1_1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 40px;
+    border: solid 1px #f9f9f9;
+    padding: 2px;
+    padding-top: 25px;
+    border-radius: 10px;
+    
+}
+.videos5_1_2{
+    padding-top: 15px;
+}
+
+.videos5_1_1_1, .videos5_1_1_2, .videos5_1_1_3{
+    padding-bottom: 5%;
+}
+.enroll5_1_1{
+    color: #2A194C;
+    background-color: #EEEEEE;
+    margin-top: -20px;
+}
+.details5_1_1 h2{
+    color: #171421;
+}
+.details5_1_1 h4{
+    color: #616161;
+    font-weight: 400;
+}
+.b5_1{
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #683FBE;
+    margin-left: 20px; 
+    height: 30px;
+    width: 115px;
+    font-weight: 700;
+    font-size: 0.8em;
+    cursor: pointer;
+    padding: 5px;
+}
+ 
+
+@media screen and (max-width: 768px) {
+    .container5 {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+        width: 250px;
+        
+    }
+    .videos5_1,
+    .videos5_2 {
+        flex-direction: column; /* Change to column layout for smaller screens */    
+        margin-top: 10px
+    }
+    .videos5_1{
+        width: 0px;
+        margin-left: 30px;
+    }
+
+    .videos5_2{
+        margin-left: 75px;
+    }
+    .videos5_1_2{
+        margin-left: 50px;
+    }
+    .videos5_1_1{
+        margin-left: 85px;
+
+    }
+
+    .videos5_1_1,
+    .videos5_1_2,
+    .videos5_2_2 {
+        margin-bottom: 20px; /* Add bottom margin for smaller screens */
+        width: 300px;
+        
+       
+    }
+
+    .videos5_1_1_1,
+    .videos5_1_1_2,
+    .videos5_1_1_3,
+    .videos5_1_2_1,
+    .videos5_1_2_2,
+    .videos5_1_2_3,
+    .videos5_2_1,
+    .videos5_2_2 {
+        padding-bottom: 5%; /* Adjust padding bottom for smaller screens */
+    }
+
+    .enroll5_1_1 {
+        margin-top: -10px; /* Adjust top margin for smaller screens */
+    }
+
+    .details5_1_1 h2 {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .details5_1_1 h4 {
+        font-size: 0.8em; /* Adjust font size for smaller screens */
+    }
+
+    .b5_1 {
+        width: auto; /* Adjust button width for smaller screens */
+        margin-left: 0; /* Remove left margin for smaller screens */
+        margin-top: 10px; /* Adjust top margin for smaller screens */
+    }
+    .img5_1_1_1 img,
+    .img5_1_3 img
+    {
+         width: 301px;
+         margin-left: -1px;
+    }
+
+}

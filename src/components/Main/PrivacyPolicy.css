@@ -1,0 +1,60 @@
+.privacy-policy-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    margin-left: 30px;
+    color: #666;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 1.5em;
+    }
+  
+    .section h2 {
+      font-size: 1.2em;
+    }
+  
+    .main {
+      padding: 10px;
+    }
+  }
+  

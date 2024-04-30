@@ -1,0 +1,109 @@
+.ApplyNow2-container{  
+    width: 100%;
+    height: 500px;
+}
+
+.ApplyNow2-container-division{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ApplyNow2-container-division-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    width: 50%;
+    padding: 5%;
+    margin-left: 150px;
+    
+}
+.division-submit-numbers{
+    font-size: 32px;
+    color: #E1D8F2;
+    font-weight: 700;
+    margin-top: -6px;
+    line-height: 1;
+}
+.division-submit-numbers span span{
+    font-size: 32px;
+    color: #E0E0E0;
+    line-height: 5;
+    
+}
+.division-submit-numbers span{
+    font-size: 32px;
+    color: #E0E0E0;
+}
+.division-submit-details{
+    display: flex;
+    flex-direction: column;
+}
+.division-submit-details-application{
+    color: #683fbf;
+    font-size: 18px;
+    font-weight: 700;
+}
+.division-submit-details-application span{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+}
+.division-submit-details-selected,
+.division-submit-details-start{
+    color: #616161;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.division-submit-details-selected span,
+.division-submit-details-start span{
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 400; 
+}
+.ApplyNow2-container-division-letsgo{
+    height: 325px;
+    background-color: #EDE8F7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 20px;
+    width: 31%;
+}
+.letsgo-heading{
+    margin-top: 10px;
+    color: #3e2672;
+    font-size: 21px;
+    font-weight: 700;
+}
+.letsgo-details{
+    margin-top: 10px;
+    color: #3E2672;
+    font-size: 17px;
+    text-align: center;
+}
+.letsgo-button button{
+    margin-top: 20px;
+    border-radius: 10px; /* Adjust border-radius */
+    color: aliceblue;
+    font-weight: 700;
+    background-color: #683FBE;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+    font-size: 17px;
+    width: 170px;
+    height: 40px;
+}
+.letsgo-button button:hover{
+    background-color: #3E2672;
+}

@@ -1,0 +1,62 @@
+.section10-container10{
+    background-color: #171421;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container10-divisions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container10-divisions-line{
+    background: hsla(0, 0%, 10%, 1);
+    background: linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#191919", endColorstr="#D9D9D9", GradientType=1 );
+    width: 2px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.container10-divisions-heading{
+    text-align: center;
+    color: #8665cc;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.container10-divisions-subheading{
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    width: 60%;
+    
+}
+.container10-divisions-pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container10-divisions-pictures-2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container10-divisions-button button{
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 50px;
+  cursor: pointer;
+}

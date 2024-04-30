@@ -1,0 +1,117 @@
+.container2{
+    background: hsla(259, 50%, 50%, 1);
+
+    background: radial-gradient(circle, hsla(259, 50%, 50%, 1) 0%, hsla(226, 83%, 7%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(259, 50%, 50%, 1) 0%, hsla(226, 83%, 7%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(259, 50%, 50%, 1) 0%, hsla(226, 83%, 7%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#683FBE", endColorstr="#030A21", GradientType=1 );
+    
+    color: aliceblue;
+}
+.heading2{
+    margin-left: 200px;
+    margin-top: -55px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading2 h1{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.heading2 h4{
+  font-size: 1.7em;
+  font-weight: 700;
+  width: 40%;
+}
+.explore_programs {
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #683FBE;
+    margin-left: 0px; 
+    height: 50px;
+    width: 200px;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 1px 1px 0px #ffffff;
+}
+.explore_programs:hover{
+  background-color: #512a8e;
+}
+
+@keyframes moveLeftToRight {
+    from { transform: translateX(-95%); }
+    to { transform: translateX(95%); }
+  }
+  
+  @keyframes moveRightToLeft {
+    from { transform: translateX(95%); }
+    to { transform: translateX(-95%); }
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom: 25px;
+    
+  }
+  
+  .images img {
+    animation-duration: 20s; /* Adjust the duration as needed */
+    animation-iteration-count: infinite;
+  }
+  
+  .images img.leftToRight {
+    animation-name: moveLeftToRight;
+  }
+  
+  .images img.rightToLeft {
+    animation-name: moveRightToLeft;
+  }
+  
+  /* Media Queries */
+
+
+
+
+
+  @media screen and (max-width: 768px){
+    .container2{
+      width: 100%;
+    }
+    .heading2 h1{
+      margin-top: 50px;
+      font-size:3em;
+      margin-left: -150px;
+    }
+    .heading2 h4{
+      font-size:1em;
+      margin-left: -150px;
+      width: 300px;
+    }
+    .explore_programs{
+      width: 200px;
+      height: 50px;
+      font-size: 20px;
+      margin-left: -150px;
+      margin-top: 0px;
+    }
+    .images{
+      width: 100%;
+    }
+    .images img{
+      width: 1200px;
+    }
+    @media screen and (max-width: 356px) {
+      .container2{
+        width: 360px;
+      }
+    }
+  }
+

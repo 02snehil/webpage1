@@ -1,0 +1,134 @@
+.section4-container4{
+    background-color: #171421;
+    display: flex;
+    flex-direction: column;
+}
+.container4-heading{
+    color: #533298;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px; 
+    font-weight: 700;  
+}
+.container4-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    justify-content: flex-start;
+   
+    
+}
+.container4-content1{
+    border: 1px solid #EE9C6D;
+    color: #F6CAB2;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.container4-content1:hover{
+    border: 5px solid  #EE9C6D;
+    background-color: #F6CAB2;
+    color: #EE9C6D;
+}
+.container4-content2{
+    border: 1px solid #27A0E3;
+    color: #B3E3F7;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;  
+    margin-left: 50px;
+}
+.container4-content2:hover{
+    border: 5px solid  #27A0E3;
+    background-color: #B3E3F7;
+    color: #27A0E3;
+}
+.container4-content3{
+    border: 1px solid #006644;
+    color: #AAE5CC;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;  
+    margin-left: 50px;
+}
+.container4-content3:hover{
+    border: 5px solid  #006644;
+    background-color: #AAE5CC;
+    color: #006644;
+}
+.container4-content4{
+    border: 1px solid #533298;
+    color: #c2b2e5;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;  
+    margin-left: 50px;
+}
+.container4-content4:hover{
+    border: 5px solid  #533298;
+    background-color: #c2b2e5;
+    color: #533298;
+}
+.container4-content5{
+    border: 1px solid #006644;
+    color: #AAE5CC;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;  
+    margin-left: 50px;
+}
+.container4-content5:hover{
+    border: 5px solid  #006644;
+    background-color: #AAE5CC;
+    color: #006644;
+}
+.container4-content div {
+    margin-left: 50px;
+  }
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Apply animation to the container */
+.container4-content {
+  animation: scrollLeft 20s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@media screen and (max-width: 768px){
+    .section4-container4{
+        width: 100%;
+        overflow: hidden;
+    }
+    .container4-heading{
+       text-align: left;
+    }
+    .container4-content{
+        width: 500%;
+        
+    }
+    
+}

@@ -1,0 +1,84 @@
+.container13{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F1FFFA;
+    width: 100%;
+    margin-top: 35px;
+    
+}
+
+.img13 img{
+    
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+    
+}
+.text13{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 35px;
+}
+.heading13 p{
+    color: #0B2653;
+    font-size: 2.3em;
+    font-weight: 700;
+    
+}
+.heading13 span{
+    color: #00C881;
+}
+.p13_1{
+    color: #0B2653;
+    font-size: 1.2em;
+}
+.p13_2{
+    color: #969998;
+}
+.button13_1{
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #00C881;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .container13 {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        margin-bottom: 20px;
+        align-items: center; /* Center align items for smaller screens */
+    }
+
+    .img13 img {
+        width: 250px; /* Adjust image width for smaller screens */
+        height: 250px; /* Adjust image height for smaller screens */
+        margin-top: 20px; /* Adjust margin top for smaller screens */
+    }
+
+    .text13 {
+        margin-left: 0; /* Reset margin left for smaller screens */
+        width: 90%; /* Adjust width for full width on smaller screens */
+        margin-top: 20px; /* Adjust margin top for smaller screens */
+        text-align: left; /* Center align text for smaller screens */
+    }
+
+    .heading13 p {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+    }
+
+    .button13 {
+        margin-top: 20px; /* Adjust margin top for smaller screens */
+    }
+
+    .button13_1 {
+        width: 200px; /* Adjust button width for smaller screens */
+        height: 45px; /* Adjust button height for smaller screens */
+    }
+}

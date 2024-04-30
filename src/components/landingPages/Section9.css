@@ -1,0 +1,83 @@
+.section9-container9{
+    background-color: #171421;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container9-divisions{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container9-divisions-h1{
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 600;
+}
+.container9-divisions-h2{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.container9-divisions-B-and-A{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: hsla(259, 50%, 30%, 1);
+    background: linear-gradient(180deg, hsla(259, 50%, 30%, 1) 0%, hsla(256, 32%, 13%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(259, 50%, 30%, 1) 0%, hsla(256, 32%, 13%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(259, 50%, 30%, 1) 0%, hsla(256, 32%, 13%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3E2672", endColorstr="#1D172D", GradientType=1 );
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.container9-divisions-B-and-A-before{
+    display: flex;
+    flex-direction: row;
+}
+.container9-before-div-B{
+    background: hsla(259, 44%, 43%, 1);
+    background: linear-gradient(180deg, hsla(259, 44%, 43%, 1) 0%, hsla(270, 100%, 82%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(259, 44%, 43%, 1) 0%, hsla(270, 100%, 82%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(259, 44%, 43%, 1) 0%, hsla(270, 100%, 82%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C3D9E", endColorstr="#D2A5FF", GradientType=1 );
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+.container9-before-text{
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.container9-divisions-B-and-A-after{
+    display: flex;
+    flex-direction: row;
+}
+.container9-before-div-A{
+    background: hsla(25, 83%, 55%, 1);
+    background: linear-gradient(180deg, hsla(25, 83%, 55%, 1) 0%, hsla(36, 100%, 66%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(25, 83%, 55%, 1) 0%, hsla(36, 100%, 66%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(25, 83%, 55%, 1) 0%, hsla(36, 100%, 66%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EC7E2E", endColorstr="#FFBA52", GradientType=1 );
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.container9-divisions-B-and-A-line{
+    background-color: rgb(95, 94, 97);
+    height: 50px;
+    width: 5px;
+    border-radius: 5px;
+}

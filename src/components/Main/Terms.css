@@ -1,0 +1,60 @@
+.terms-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .terms-container header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .terms-container h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .terms-container main {
+    padding: 20px;
+  }
+  
+  .terms-section {
+    margin-bottom: 30px;
+  }
+  
+  .terms-section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .terms-section p {
+    color: #666;
+    margin-left: 30px;
+  }
+  
+  .terms-container footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .terms-container footer p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .terms-container h1 {
+      font-size: 1.5em;
+    }
+  
+    .terms-container h2 {
+      font-size: 1.2em;
+    }
+  
+    .terms-container main {
+      padding: 10px;
+    }
+  }
+  
