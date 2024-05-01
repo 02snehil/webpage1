@@ -66,6 +66,9 @@
     .container8-divisions{
         margin-left: 0px;
         margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
     }
     .container8-box1-img img{
           width: 300px;
