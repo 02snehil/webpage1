@@ -18,6 +18,7 @@
 }
 .container8-divisions-boxes{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
