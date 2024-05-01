@@ -28,7 +28,7 @@ function Section8(){
                                 and become better at building tech-driven products.
                             </div>
                         </div>
-                         <div className="container8-divisions-boxes-box1">
+                        <div className="container8-divisions-boxes-box1">
                             <div className="container8-box1-img">
                                 <img src={section8_image2} alt="section8_image2"  />
                             </div>
