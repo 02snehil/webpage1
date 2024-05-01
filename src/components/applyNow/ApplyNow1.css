@@ -74,3 +74,32 @@
 .division-launchpad-right-time{
     margin-right: 15px
 }
+
+@media screen and (max-width: 768px) {
+    .applyNow1-container{
+        width: 70%;
+    }
+    .applyNow1-container-division{
+        width: 100%;
+    }
+    .division-launchpad{
+        border: 0px;
+        width: 100%;
+    }
+    .division-launchpad-right{
+        display: none;
+    }
+    .division-launchpad-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 120%;
+        margin-left: -65px;
+        font-size: 15px;
+        
+    }
+    .division-launchpad-left span{
+        font-size: 21px;
+        margin-top: 5px;
+    }
+}

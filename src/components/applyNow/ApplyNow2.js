@@ -9,6 +9,21 @@ function ApplyNow2(){
         <>
             <div className="ApplyNow2-container">
                 <div className="ApplyNow2-container-division">
+                    <div className="ApplyNow2-container-division-letsgo1">
+                        <div className="letsgo-img">
+                            <img src={letsGo} alt="letsGo" />
+                        </div>
+                       <div className="letsgo-heading">
+                          We evaluate each application carefully
+                       </div>
+                       <div className="letsgo-details">
+                         Please provide your best answers to these
+                         questions so we can decide if this program is                             suitable for you.
+                        </div>
+                        <div className="letsgo-button">
+                            <a href="/register"><button>Let's go</button></a>
+                        </div>
+                    </div>
                     <div className="ApplyNow2-container-division-submit">
                         <div className="division-submit-numbers">
                             01 <br />
@@ -37,7 +52,7 @@ function ApplyNow2(){
                                 <span>Congratulations, you're in! It's 
                                       time to embark on your journey.
                                 </span>
-                             </div>
+                            </div>
 
                         </div>
                     </div>

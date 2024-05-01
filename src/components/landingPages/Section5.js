@@ -65,7 +65,7 @@ function Section5() {
                     <div className="container5-content-details-line"></div>
                     <div className="container5-content-details-content">
                         {activeWeek === 1 && (
-                            <div className="container5-content-details-content-week1">
+                            <div className="container5-content-details-content-week2">
                                 <div className="week1-heading">
                                     Offline Orientation
                                 </div>
@@ -110,7 +110,7 @@ function Section5() {
                                 </div>
                                 <div className="week1-content">
                                     <img src={section5_img1} alt="section5_img1" /> &emsp;Define the right problem statement <br /> <br />
-                                    <img src={section5_img1} alt="section5_img1" /> &emsp;Generate multiple possible ideas to solve the problem <br /> <br />
+                                    <img src={section5_img1} alt="section5_img1" /> &emsp;Generate possible ideas to solve problem <br /> <br />
                                 </div>
                             </div>
                         )}
@@ -146,7 +146,7 @@ function Section5() {
                                   Effective communication as a PM
                                 </div>
                                 <div className="week1-content">
-                                    <img src={section5_img1} alt="section5_img1" /> &emsp;Working with designers, engineers and business teams <br /> <br />
+                                    <img src={section5_img1} alt="section5_img1" /> &emsp;Working with designers, engineers <br /> <br />
                                     <img src={section5_img1} alt="section5_img1" /> &emsp;Communicating via documentation <br /> <br />
                                 </div>
                             </div>

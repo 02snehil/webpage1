@@ -107,3 +107,57 @@
 .letsgo-button button:hover{
     background-color: #3E2672;
 }
+.ApplyNow2-container-division-letsgo1{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .ApplyNow2-container{
+        width: 100%;
+        height: auto; 
+    }
+    .ApplyNow2-container-division{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ApplyNow2-container-division-letsgo{
+        display: none;
+    }
+    .ApplyNow2-container-division-letsgo1{
+        background-color: #EDE8F7;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        margin-left: 10px;
+        width: 80%;
+        margin-top: -40px;
+    }
+    .ApplyNow2-container-division-submit{
+        height: auto;
+        width: 78%;
+        margin-top: 10px;
+        margin-left: 0px;  
+    }
+    .division-submit-numbers{
+        margin-top: 1px;
+    }
+    .division-submit-numbers span{
+        line-height: 1.1;
+    }
+    .division-submit-numbers span span{
+        line-height: 6.8;
+        padding: 2px;
+    }
+    .division-submit-line img{
+        height: 290px;
+        padding: 2px;
+        padding-right: 2px;
+    }
+}

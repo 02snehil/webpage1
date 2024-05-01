@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 80%;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 .container8-divisions-heading{
     color: aliceblue;
@@ -55,3 +56,31 @@
 .container8-box1-img img{
     border-radius: 10px;
 }
+@media only screen and (max-width: 768px){
+    .section8-container8,
+    .container8-divisions
+    {
+        width: 100%;
+    }
+    .container8-divisions{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .container8-box1-img img{
+          width: 300px;
+          margin-left: -15px;
+    }
+    .container8-divisions-boxes{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+    }
+    .container8-divisions-boxes-box1{
+        width: 95%;
+        margin-left: 0px;
+    }
+}
+

@@ -17,10 +17,13 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
+    width: 95%;
 }
 .container5-content-details-weeks{
-    width: 12%;
-    padding-left: 30px;
+    width: 35%;  
+}
+.container5-content-details-weeks button{
+    margin-left: 150px;
 }
 .container5-content-details-weeks button{
     background-color: transparent;
@@ -37,24 +40,20 @@
 }
 .container5-content-details-line{
     background: hsla(0, 0%, 10%, 1);
-
-    background: linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
-    
+    background: linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);    
     background: -moz-linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
-    
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);    
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#191919", endColorstr="#D9D9D9", GradientType=1 );
-
     width: 1px;
     margin-top: 5px;
+    
 }
 .container5-content-details-content{
     padding-left: 50px;
     width: 53%;
     margin-top: 40px;
 }
-.container5-content-details-content-week1{
+.container5-content-details-content-week2{
     text-align: left;
 }
 .week1-heading{
@@ -79,6 +78,7 @@
     height: 255px;
     padding: 30px;
     margin-top: 50px;
+ 
 }
 .container5-curriculum-heading{
     background: linear-gradient(81deg, #ffffff, #8a8a8a);
@@ -115,8 +115,13 @@
 @media only screen and (max-width: 768px) {
     .container5-content,
     .container5-content-details{
+        width: 97%;
         display: flex;
-      flex-direction: column;
+        flex-direction: column;
+    }
+    .container5-content-heading{
+        font-size: 35px;
+        margin-top: 60px;
     }
     .container5-content-details-weeks {
       overflow-x: auto;
@@ -124,12 +129,48 @@
       display: flex;
       flex-direction: row;
       padding: 10px;
+      width: 95%;
     }
-    .container5-content-details-weeks {
-      
+    .container5-content-details-weeks button{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .container5-content-details-line{
+        background: hsla(0, 0%, 10%, 1);
+        background: linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);    
+        background: -moz-linear-gradient(0deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);
+        background: -webkit-linear-gradient(180deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 85%, 1) 100%);    
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#191919", endColorstr="#D9D9D9", GradientType=1 );
+        width: 100%;
+        height: 2px;
+        margin-top: -15px;
     }
     .week-buttons button {
       margin-right: 10px;
+    }
+    .container5-content-details-content-week2{
+        width: 140%;
+        text-align: left;
+        margin-left: -30px;
+    }
+    .week1-heading{
+        font-size: 22px;
+    }
+    .week1-content{
+        font-size:15px ;
+        text-align: left;
+        width: 130%;
+    }
+    .container5-content-details-curriculum{
+        width: 75%;
+        margin-left: 10px;
+        height: auto;
+    }
+    .container5-curriculum-img{
+        margin-top: -15px;
+    }
+    .container5-curriculum-button button{
+        width: 95%;
     }
   }
   

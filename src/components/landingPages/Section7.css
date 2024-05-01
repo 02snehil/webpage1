@@ -93,3 +93,29 @@
     margin-left: 70px;
     margin-top: 20px;
 }
+@media only screen and (max-width: 768px){
+
+    .section7-container7{
+        width: 100%;
+        height: auto;
+    }
+    .container7-divisions{
+        width: 100%;
+        
+    }
+    .container7-divisions-heading{
+        width: 90%;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .container7-divisions-paragraph{
+        width: 90%;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .container7-divisions-slider{
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+}

@@ -12,7 +12,7 @@ function ApplyNow1(){
                         <div className="division-launchpad-left">
                             <br />
                                  Hey there, you're applying for <br />
-                           <span> Product Management launchpad</span>
+                           <span> Product Management Launchpad</span>
                         </div>
                         <div className="division-launchpad-right">
                             <div className="division-launchpad-right-duration">
