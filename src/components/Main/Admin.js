@@ -19,9 +19,12 @@ function Admin() {
                 console.error("Error fetching users:", error);
             });       
     }
+
+    let serialNumber = 1;
  
     let resultArray = usersArray.map((item, index) => (
         <tr key={index}>
+            <td>{serialNumber++}</td>
             <td>{item._id}</td>
             <td>{item.uname}</td>
             <td>{item.email}</td>
@@ -39,6 +42,7 @@ function Admin() {
             <table align="center" border="2" width="600" cellSpacing="0" cellPadding="5">
                 <thead>
                     <tr>
+                        <th>Sr. No.</th>
                         <th>User Id</th>
                         <th>User Name</th>
                         <th>Email id</th>
