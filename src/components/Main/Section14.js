@@ -35,7 +35,7 @@ function Section14(){
                           <p className="p14_1">Company</p>
                           <a href="/about-us"><p>About Us</p></a>
                           <a href="/blog"><p>Blog</p></a>
-                          <a href="/home"><p>Home</p></a>
+                          <a href="/"><p>Home</p></a>
                       </div>
                       <div className="container14-heading-right-legal">
                           <p className="p14_1">Legal</p>
