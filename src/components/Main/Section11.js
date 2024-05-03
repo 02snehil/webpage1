@@ -15,7 +15,7 @@ function Section11(){
         <>
             <div className="container11">
                 <div className="heading11">
-                    <p>Wall of <span style={{color:"#00C881"}}>Fame</span> @ CREDMARG</p>
+                    <p>Wall of <span style={{color:"#00C881"}}>Fame</span> @CREDMARG</p>
                 </div>
                 <div className="reviews11">
                     <div className="rev11_1">
@@ -34,8 +34,8 @@ function Section11(){
                                 <img src={rev11_1_1} alt="rev11_1_1" />
                             </div>
                             <div className="intro11_1_1">
-                                <p>Sreejith Nair <br />
-                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Product Manager</span></p>
+                                <p>Abhinav Chhikara <br />
+                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>SDE-II</span></p>
                             </div>  
                         </div>
                         <div className='p11_1_2'>
@@ -65,8 +65,8 @@ function Section11(){
                                 <img src={rev11_2_1} alt="rev11_1_1" />
                             </div>
                             <div className="intro11_1_1">
-                                <p>Neelam Rajput</p>
-                                    
+                                <p>Kawaljeet Kaur<br />
+                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Ex- Engineering Manager</span></p>                                    
                             </div>  
                         </div>
                         <div className='p11_1_2'>
@@ -96,8 +96,8 @@ function Section11(){
                                 <img src={rev11_3_1} alt="rev11_3_1" />
                             </div>
                             <div className="intro11_1_1">
-                                <p>Surbhi Sanodiya <br />
-                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Social Media Marketor</span></p>
+                                <p>Abhash Kumar<br />
+                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Ex- Engineering Manager</span></p>
                             </div>  
                         </div>
                         <div className='p11_1_2'>
@@ -123,7 +123,8 @@ function Section11(){
                                 <img src={rev11_4_1} alt="rev11_4_1" />
                             </div>
                             <div className="intro11_1_1">
-                                <p>Siddhi sharma</p>
+                                <p>Sudhir Binchar<br />
+                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Sr. Software Engineering</span></p>                           
                             </div>  
                         </div>
                         <div className='p11_1_2'>
@@ -149,7 +150,8 @@ function Section11(){
                                 <img src={rev11_5_1} alt="rev11_5_1" />
                             </div>
                             <div className="intro11_1_1">
-                                <p>Varinder Yadav</p>
+                                <p>Mohisin Darrr<br />
+                                    <span style={{color:'#d1d1d1', fontSize:'.8em'}}>Product Manager</span></p>
                             </div>  
                         </div>
                         <div className='p11_1_2'>

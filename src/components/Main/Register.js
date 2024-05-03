@@ -1,3 +1,5 @@
+//Register.js
+
 import React, { useEffect, useState } from "react";
 import plogo from './image/plogo.jpg';
 import video from './image/video.png';
@@ -11,7 +13,78 @@ import axios from "axios";
 function Register(){
 
     const navigate = useNavigate();
+    const [phone,setPhone]=useState('')
+    const [uname,setUname]=useState('')
+    const [email,setEmail]=useState('')
+    const [password,setPassword]=useState('')
+    const [r_password,setR_password]=useState('')
     const [value,setValue] = useState('');
+
+
+
+    //Sign-up with google code
+    const handleGoogleRegister = () => {
+        signInWithPopup(auth, provider)
+            .then((data) => {
+                console.log(data.user.email);
+                const email = data.user.email;
+                const provider = "Google"; // Set the provider to "google" for Google signup
+    
+                //sending the email id and provider to the backend server to save it in the database
+                axios.post("http://localhost:8000/register", { email, provider })
+                    .then((res) => {
+                        //Handling the response from the backend if needed
+                        console.log(res.data);
+                        //if register is successfully done so navigate it to the welcome page
+                        if (res.data.message === "Registration Successful") {
+                            console.log("Navigating to welcome page...");
+                            navigate('/welcome', { state: { id: email } });
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("Failed to register with Google:", error);
+                    });
+            })
+            .catch((error) => {
+                console.error("Google Signup failed", error.message);
+            });
+    };
+
+
+
+  
+    //Sign-up with email/submit button  
+    async function register(e) {
+        e.preventDefault();
+    
+        try {
+            // Set the provider to "email" for email signup
+            const provider = "Email";
+            
+            const response = await axios.post("http://localhost:8000/register", {
+                phone,
+                uname,
+                email,
+                password,
+                r_password,
+                provider  // Include the provider information
+            });
+
+            if (response.data.message === "Registration Successful"){
+                console.log("Navigating to welcome page...");
+                navigate("/welcome", { state: { id: uname } });
+            }
+            else{
+                alert("Failed to register. Please try again")
+            }
+        } catch (error) {
+            console.error("Failed to register:", error);
+            alert("Failed to register. Please try again later.");
+        }
+    }
+
+ 
+  
 
 
     useEffect(() => {
@@ -24,19 +97,11 @@ function Register(){
         return () => {
             window.removeEventListener('beforeunload', handleBeforeUnload);
         };
-    }, []); 
+    }, []);
 
-    const handleGoogleRegister =()=>{
-        signInWithPopup(auth,provider)
-            .then((data)=>{
-               console.log(data.user.email);
-               setValue(data.user.email);
-               localStorage.setItem('email',data.user.email);
-               navigate('/welcome');
-            }).catch(error => {
-            console.error("Register failed:", error.message);
-        });
-    }
+    
+
+
 
     useEffect(()=>{
         setValue(localStorage.getItem('email'));
@@ -55,44 +120,6 @@ function Register(){
             window.removeEventListener('popstate', handlePopState);
         };
     }, [navigate]);
-
-
-    const [phone,setPhone]=useState('')
-    const [uname,setUname]=useState('')
-    const [email,setEmail]=useState('')
-    const [password,setPassword]=useState('')
-    const [r_password,setR_password]=useState('')
-
-    async function register(e){
-        e.preventDefault();
-
-        try{
-
-            await axios.post("http://localhost:8000/register",{
-                phone,uname,email,password,r_password
-            })  
-            .then(res=>{
-                if(res.data === "The detail you have given that detail user is there"){
-                  
-                    alert("user already exixt")
-                }
-                else if(res.data === "good to go for registration"){
-                    navigate("/welcome ",{state:{id:uname}})
-               }
-            })  
-            .catch(e=>{
-                 alert("wrong details")
-                 console.log(e);
-            })   
-        }
-        catch(e){
-            console.log(e);
-        
-        }
-
-        
-    }
-
 
 
 
@@ -168,3 +195,15 @@ function Register(){
     );
 }
 export default Register;
+
+
+
+
+
+
+
+
+
+
+
+

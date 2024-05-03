@@ -6,11 +6,13 @@ import img3_1_2 from './image/img3_1_2.png'
 import img3_1_3 from './image/img3_1_3.png'
 import img3_1_4 from './image/img3_1_4.png'
 import img3_1_5 from './image/img3_1_5.png'
+import img3_1_6 from './image/img3_1_6.png'
 import logo3_1_1 from './image/logo3_1_1.png'
 import logo3_1_2 from './image/logo3_1_2.png'
 import logo3_1_3 from './image/logo3_1_3.png'
 import logo3_1_4 from './image/logo3_1_4.png'
 import logo3_1_5 from './image/logo3_1_5.png'
+import logo3_1_6 from './image/logo3_1_6.png'
 
 function Section3() {
     const [slideIndex, setSlideIndex] = useState(0);
@@ -18,72 +20,78 @@ function Section3() {
     const alumniData = [
         
         {
-            name: "Abhishek Shukla",
-            position: "Principal Product Manager",
+            name: "Saurab Sahu",
+            position: "SDE-II",
             image: img3_1_2,
             logo: logo3_1_2
         },
         {
-            name: "Abhishek Shukla",
-            position: "Principal Product Manager",
+            name: "Saurab Sahu",
+            position: "SDE-II",
             image: img3_1_2,
             logo: logo3_1_2
         },
         {
-            name: "Prashanth Bhaskaran",
+            name: "Ajay Gupta",
             position: "Product Manager",
             image: img3_1_3,
             logo: logo3_1_3
         },
         
         {
-            name: "Prashanth Bhaskaran",
+            name: "Ajay Gupta",
             position: "Product Manager",
             image: img3_1_3,
             logo: logo3_1_3
         },
         {
-            name: "Akash Daga",
-            position: "SDE-III",
+            name: "Rishika Sharma",
+            position: "Data Scientist",
             image: img3_1_4,
             logo: logo3_1_4
         },
         {
-            name: "Kumar Utsav",
-            position: "Product Manager",
+            name: "Abhimanyu Raj",
+            position: "SDE-III",
             image: img3_1_5,
             logo: logo3_1_5
         },
         {
-            name: "Rishabh Dev",
-            position: "Co Founder",
+            name: "Kshitiz Anand",
+            position: "Head of Design",
             image: img3_1_1,
             logo: logo3_1_1
         },
         {
-            name: "Abhishek Shukla",
-            position: "Principal Product Manager",
+            name: "Abhimanyu raj",
+            position: "SDE-III",
+            image: img3_1_5,
+            logo: logo3_1_5
+        },
+        {
+            name: "Vishwash Kumar",
+            position: "Product Manager",
+            image: img3_1_6,
+            logo: logo3_1_6
+        },
+        {
+            name: "saurab Sahu",
+            position: "SDE-I",
             image: img3_1_2,
             logo: logo3_1_2
         },
         {
-            name: "Prashanth Bhaskaran",
+            name: "Ajay Gupta",
             position: "Product Manager",
             image: img3_1_3,
             logo: logo3_1_3
         },
         {
-            name: "Akash Daga",
-            position: "SDE-III",
+            name: "Rishika Sharma",
+            position: "Data Scientist",
             image: img3_1_4,
             logo: logo3_1_4
-        },
-        {
-            name: "Kumar Utsav",
-            position: "Product Manager",
-            image: img3_1_5,
-            logo: logo3_1_5
-        },
+        }
         
     ];
 
@@ -97,7 +105,7 @@ function Section3() {
                     {alumniData.map((alumni, index) => (
                         <div className="intro1" key={index}>
                             <div className="intro1_1">
-                                <img src={alumni.image} alt={`img_${index + 1}`} />
+                                <img src={alumni.image} alt={`img_${index - 2}`} />
                             </div>
                             <div className="intro1_2">
                                 <p className="p3_1">{alumni.name}</p>

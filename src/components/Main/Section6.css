@@ -27,7 +27,7 @@
 .div6-1, .div6-2 {
     border-radius: 20px;
     padding: 20px;
-    background-color: #ECE2FA; 
+    background-color: #FFECE9; 
 }
 
 .div6-2 {
@@ -70,6 +70,7 @@
     padding: 20px;
     border-radius: 20px;
     margin-top: 10px;
+    height: 560px;
     
     
 }
@@ -78,16 +79,32 @@
     margin-right: 100px;
     
 }
+.div6-4-2{
+    background-color: #F7D2E2;
+    border-radius: 20px;
+    height:200px;
+    margin-top: 60px;
+    
+}
+.div6-4-2 img{
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 30px;   
+}
+.div6-pic-name{
+    font-weight: 700;
+    text-align: center;
+    line-height: 3;
+}
+.div6-pic-disg{
+    text-align: center;
+}
 .div6-4{
     width: 100%;
     padding: 20px;
     justify-content: start;
     align-items: start;
     
-}
-.div6-4 img{
-    margin-left: -30px;
-    width: 400px;
 }
 .div6-5-image img{
     height: 250px;
@@ -160,6 +177,7 @@
     .grid-container2{
         margin-left: 15px;
         width: 112%;
+        height: auto;
     }
     .div6-4 img{
         width: 280px;
@@ -168,5 +186,12 @@
     .div6-5-image img{
         margin-left: 10px;
         height: 200px;
+    }
+    .div6-4-2{
+         
+    }
+    .div6-4-2-image img{
+        width: 70px;
+        margin-left: 75px;
     }
 }

@@ -1,3 +1,5 @@
+
+
 const { mongoose } = require('mongoose');
 
 mongoose.connect("mongodb://0.0.0.0:27017/snehildb")
@@ -9,49 +11,44 @@ mongoose.connect("mongodb://0.0.0.0:27017/snehildb")
     });
 
 
-const newSchema = new mongoose.Schema({
-    phone: {
-        type: Number,
-        require: true,
-        minlenght:10,
-        maxlenght:10
-    },
-    uname: {
-        type: String,
-        require: true,
-        minlenght: 3,
-        maxlenght: 20
-    },
-    email: {
-        type:String,
-        require: true,
-        unique: true
-    },
-    password: {
-        type: String,
-        require: true,
-        minlenght: 3,
-        maxlenght:15
-    },
-    r_password:{
-        type: String,
-        require: true,
-        minlenght: 3,
-        maxlenght:15
-    },
-    loginTime: {
-        type: Date,
-        default: null
-    },
-    logoutTime: {
-        type: Date,
-        default: null
-    },
-    registrationDate: {
-        type: Date,
-        default: Date.now 
-    }
-});
+    const newSchema = new mongoose.Schema({
+        uname: {
+            type: String,
+        },
+        email: {
+            type: String,
+            unique: true,
+            required: true,
+        },
+        phone: {
+            type: Number
+            
+        },
+        password: {
+            type: String,
+           
+        },
+        r_Password: {
+            type: String
+            
+        },
+        provider: {
+            type: String,
+            required: true,
+        },
+        registrationTime: {
+            type: Date,
+            default: Date.now
+        },
+        loginTime: {
+            type: Date,
+            default: null
+        },
+        logoutTime: {
+            type: Date,
+            default: null
+        }  
+    });
 
 const webpageUser = mongoose.model("webpageUser", newSchema);
 module.exports = webpageUser;

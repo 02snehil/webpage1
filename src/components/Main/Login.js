@@ -30,11 +30,14 @@ function Login() {
 
     const handleGoogleLogin = () => {
         signInWithPopup(auth, provider)
-            .then((data) => {
+            .then(async (data) => {
                console.log(data.user.email);
                const email = data.user.email;
                setValue(email);
                localStorage.setItem('email',email);
+
+               //sending a request to uplode login time in mongodb
+               updateLoginTime(email);
                navigate('/welcome', { state: { id: email } });
             })
             .catch(error => {
@@ -105,9 +108,6 @@ function Login() {
         }
     };
 
-
-
-    // const [user, setUser] = useState(null);
     // const [error, setError] = useState(null);
     // const navigate = useNavigate();
 

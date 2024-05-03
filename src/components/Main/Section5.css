@@ -64,6 +64,11 @@
     cursor: pointer;
     padding: 5px;
 }
+.img5_1_1_1 img,
+.img5_1_3 img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
  
 
 @media screen and (max-width: 768px) {

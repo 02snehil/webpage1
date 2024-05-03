@@ -11,16 +11,18 @@ function Section4(){
 
    return(
        <>
+         
          <div className='container4'>
             <div className='text4'>
                <div className="heading-button-container">
                    <div className="heading4">
                        <h1>
-                          <span style={{ color: " rgb(193, 158, 92)" }}>Make yourself marketable. </span>
-                           Let <br /> recruiters judge you on actual<br />
-                           work, not just a resume.
+                          <span style={{ color: " rgb(193, 158, 92)" }}>Highlight your value 
+                           through demonstrated achievements, </span>
+                           allowing recruiters to assess your capabilities beyond a traditional resume.
                        </h1>
                    </div>
+                   <div className='space'></div>
                    <button className="b4"> Join Pesto today </button>
                 </div>
                 <div className='image_text4'>
@@ -30,8 +32,8 @@ function Section4(){
                         <img src={icon4_1} alt='icon4_1'/>
                       </div>
                       <div className='subtext4_1'>
-                        <b>Built a profile for free</b>
-                        <p>Qualify for jobs at top product startups</p><br/><br/>
+                        <b>Create a comprehensive profile at no cost.</b>
+                        <p>Become eligible for positions at premier product startups.</p><br/><br/>
                       </div>
                     </div>
                     <div className='t4_2'>
@@ -39,8 +41,8 @@ function Section4(){
                         <img src={icon4_2} alt='icon4_2'/>
                       </div>
                       <div className='subtext4_2'>
-                        <b>Stand out to recruiters</b>
-                        <p>Globally-competitive salary based on your skills.</p><br/><br/>
+                        <b>Catch the eye of recruiters.</b>
+                        <p>Earn a globally competitive salary matched to your skills.</p><br/><br/>
                       </div>
                     </div>
                     <div className='t4_3'>
@@ -48,8 +50,8 @@ function Section4(){
                         <img src={icon4_3} alt='icon4_3'/>
                       </div>
                       <div className='subtext4_3'>
-                        <b>Get offers with zero salary negotiations.</b>
-                        <p >Get interviews on your calendar directly on device</p><br/><br/>
+                        <b>Secure offers without the need for salary negotiations.</b>
+                        <p >Fill your calendar with interview invitations directly.</p><br/><br/>
                       </div>
                     </div>
                 </div>

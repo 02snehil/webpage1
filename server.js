@@ -1,3 +1,6 @@
+//server.js
+
+
 //Import important module
 const express = require('express');
 const webpageUser = require('./mongodb');
@@ -12,7 +15,44 @@ server.use(express.urlencoded({ extended: true }));
 server.use(coros());
 
 
-//Login
+
+
+
+// Registration Route
+server.post("/register", async (req, res) => {
+    const { uname, phone, email, password, r_password, provider } = req.body;
+
+    try {
+        // Check if the email already exists in the database
+        const existingUser = await webpageUser.findOne({ email });
+
+        if (existingUser) {
+            return res.status(400).json({ message: "User already exists" });
+        }
+
+        // Create a new user
+        const newUser = new webpageUser({
+                uname: provider === 'google' ? undefined : uname,
+                phone: provider === 'google' ? undefined : phone,
+                email,
+                password: provider === 'google' ? undefined : password,
+                r_Password: provider === 'google' ? undefined : r_password,
+                provider,
+                registrationTime: new Date()
+        });
+
+        // Save the user to the database
+        await newUser.save();
+        res.json({ message: "Registration Successful", user: newUser });
+    } catch (error) {
+        console.error("Error during registration:", error);
+        res.status(500).json({ message: "Internal server error" });
+    }
+});
+
+
+
+//Login 
 server.get("/login",coros(),(req,res)=>{
 
 })
@@ -21,7 +61,8 @@ server.post("/login", async ( req, res )=> {
     const { email, password } = req.body;
 
     try{
-
+          
+          ////checking if the user existing and password matches, update loginTime in the database
           const check = await webpageUser.findOne({ email: email, password: password });
           if (check) {
             await webpageUser.updateOne({ email: email }, { $set: { loginTime: new Date() } });
@@ -41,6 +82,8 @@ server.post("/logout", async (req,res) => {
     const { email } = req.body;
 
     try{
+
+        // Update logoutTime when user logs out
         await webpageUser.updateOne({ email: email }, { $set: { logoutTime: new Date() } });
         res.json("logout successfully");
     }
@@ -49,37 +92,6 @@ server.post("/logout", async (req,res) => {
     }
 });
 
-
-
-// Registration
-server.post("/register", async (req, res) => {
-const { phone, uname, email, password, r_password } = req.body;
-
-const registrationDate = new Date(); // Generate current date and time
-
-const userData = {
-    phone: phone,
-    uname: uname,
-    email: email,
-    password: password,
-    r_password: r_password,
-    registrationDate: registrationDate // Include registration date
-};
-
-try {
-    const check = await webpageUser.findOne({ email: email, phone: phone });
-    if (check) {
-        res.json("The detail you have given that detail user is there");
-    } else {
-        const newUser = new webpageUser(userData);
-        await newUser.save();
-        res.json("good to go for registration");
-    }
-} 
-catch (e) {
-    res.json("Registration fail");
-}
-});
 
 //  fetching all users data from the server
 server.get("/users", async (req, res) => {

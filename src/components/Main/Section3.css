@@ -26,11 +26,12 @@
 
 .alumi_intro {
     display: flex;
-    flex-wrap: nowrap;
+    
     overflow-x: auto; /* Enable horizontal scrolling */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
     scroll-snap-type: x mandatory; /* Enable snap scrolling */
     margin-top: 20px; /* Add some margin */
+    
 }
 
 .intro1 {

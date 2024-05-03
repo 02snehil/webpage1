@@ -9,8 +9,6 @@
 .box8_1, .box8_2, .box8_3{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #171421;
     border-radius: 25px;
     width: 400px;
@@ -20,19 +18,22 @@
 .img8_1{
     margin-top: 25px;
 }
+.img8_1 img{
+    margin-left: 35px;
+}
 .img_text{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 35px;
+    justify-content: space-evenly;
+   
 }
 .pp{
-   margin-left: -45px;
+   
    margin-top: 10px;
 }
 .text8{
-    margin-left: 15px;
-    margin-top: -10px;
+    
+    margin-top: 0px;
 }
 .p8_1{
     color: #FFCDB1;
@@ -44,8 +45,11 @@
     font-size: .7em;
 }
 .Link8{
-    margin-left: 30px;
+    
     margin-top: 20px;
+}
+.Link8 img{
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -57,7 +61,7 @@
     .img8_1 img{
         width: 300px;
         height: 170px;
-        margin-left: 0px;
+        margin-left:12px;
         margin-top: -20px;
     }
 
@@ -65,6 +69,7 @@
         width: 90%; /* Adjust width for smaller screens */
         height: 280px;
         margin: 15px;
+        padding: 10px;
     }
 
     .img_text {
@@ -75,18 +80,18 @@
     }
 
     .pp {
-        margin-left: -30px;        
+        margin-left: 20px;        
     }
 
     .text8 {
-        margin-left: 25px;
+        
       
         text-align: left;
     }
 
     .Link8 {
-        margin-right: -20px;
-        margin-top: 10px;
+        margin-right: 40px;
+        margin-top: 20px;
         text-align: center;
     }
 }

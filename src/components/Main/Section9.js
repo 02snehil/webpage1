@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 import './Section9.css';
-import img9_1 from './image/img9_1.png';
-import img9_2 from './image/img9_2.png';
-import img9_3 from './image/img9_3.png';
-import img9_4 from './image/img9_4.png';
-import img9_5 from './image/img9_5.png';
-import img9_6 from './image/img9_6.png';
-import img9_7 from './image/img9_7.png';
-import img9_8 from './image/img9_8.png';
-import img9_9 from './image/img9_9.png';
-import img9_10 from './image/img9_10.png';
-import img9_11 from './image/img9_11.png';
+import sec9_img1 from './image/sec9_img1.png'
+import sec9_img2 from './image/sec9_img2.png'
+import sec9_img3 from './image/sec9_img3.png'
+import sec9_img4 from './image/sec9_img4.png'
+import sec9_img5 from './image/sec9_img5.png'
+import sec9_img6 from './image/sec9_img6.png'
+import sec9_img1_1 from './image/sec9_img1_1.png'
+import sec9_img2_1 from './image/sec9_img2_1.png'
+import sec9_img3_1 from './image/sec9_img3_1.png'
+import sec9_img4_1 from './image/sec9_img4_1.png'
+import sec9_img5_1 from './image/sec9_img5_1.png'
+import sec9_img6_1 from './image/sec9_img6_1.png'
+
 
 function Section9() {
     // const [animationCount, setAnimationCount] = useState(0);
@@ -43,17 +45,66 @@ function Section9() {
             </div>
             
             <div className="sliding-images">
-                <img src={img9_1} alt="img9_1" />
-                <img src={img9_2} alt="img9_2" />
-                <img src={img9_3} alt="img9_3" />
-                <img src={img9_4} alt="img9_4" />
-                <img src={img9_5} alt="img9_5" />
-                <img src={img9_6} alt="img9_6" />
-                <img src={img9_7} alt="img9_7" />
-                <img src={img9_8} alt="img9_8" />
-                <img src={img9_9} alt="img9_9" />
-                <img src={img9_10} alt="img9_10" />
-                <img src={img9_11} alt="img9_11" />
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img1} alt="sec9_img1" />
+                    </div>
+                    <div className="section9-division1-name">Kawaljeet Kaur</div>
+                    <div className="section9-division1-position">Ex- Engineering Manager</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img1_1} alt="sec9_img1_1" />
+                    </div>
+                </div>
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img2} alt="sec9_img2" />
+                    </div>
+                    <div className="section9-division1-name">Abhinav Chhikara</div>
+                    <div className="section9-division1-position">SDE-II</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img2_1} alt="sec9_img2_1" />
+                    </div>
+                </div>
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img3} alt="sec9_img3" />
+                    </div>
+                    <div className="section9-division1-name">Abhash Kumar</div>
+                    <div className="section9-division1-position">Ex- Engineering Manager</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img3_1} alt="sec9_img3_1" />
+                    </div>
+                </div>
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img4} alt="sec9_img4" />
+                    </div>
+                    <div className="section9-division1-name">Sudhir Binchar</div>
+                    <div className="section9-division1-position">Sr. Software Engineering</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img4_1} alt="sec9_img4_1" />
+                    </div>
+                </div>
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img5} alt="sec9_img5" />
+                    </div>
+                    <div className="section9-division1-name">Mohisin Darr</div>
+                    <div className="section9-division1-position">Product Manager</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img5_1} alt="sec9_img5_1" />
+                    </div>
+                </div>
+                <div className="section9-division1">
+                    <div className="section9-division1-image">
+                        <img src={sec9_img6} alt="sec9_img6" />
+                    </div>
+                    <div className="section9-division1-name">Abhimanyu Tak</div>
+                    <div className="section9-division1-position">SDE-III</div>
+                    <div className="section9-division1-compony">
+                        <img src={sec9_img6_1} alt="sec9_img6_1" />
+                    </div>
+                </div>
             </div>
         </div>
     );

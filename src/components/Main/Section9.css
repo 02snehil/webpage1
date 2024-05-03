@@ -53,12 +53,34 @@
     width: 100%;
 }
 
-.sliding-images img {
-    flex-shrink: 0; 
-    width: 12%; 
-    height: auto; 
-    margin-right: 10px; 
+.section9-division1 img {
+    flex-shrink: 0;   
+}
+.section9-division1-position{
+    color: rgb(175, 174, 174);
+    font-weight: 400;
+    margin-top: 10px
+}
+.section9-division1{
+    background-color: #221D32 ;/* #082847; */
+    border-radius: 15px;
+    height: auto;
     margin-top: 250px;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    margin-right: 20px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.section9-division1-compony{
+    margin-top: 15px;
+}
+.section9-division1-name{
+   margin-top: 15px;
 }
 
 
