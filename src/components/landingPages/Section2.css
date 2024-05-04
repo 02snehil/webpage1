@@ -43,12 +43,16 @@
 .section2-applynow-button button:hover{
     background-color: #512a8e;
 }
+.section2-video{
+    cursor:'pointer';
+}
 
 .section2-video video{
     margin-top: 35px;
     width: 1088px;
     height: 556px;
     margin-left: 220px;
+    cursor:'pointer';
 }
 .section2-video img{
     margin-top: 21px;

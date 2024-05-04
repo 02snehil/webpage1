@@ -62,7 +62,8 @@
     margin-top: 10px
 }
 .section9-division1{
-    background-color: #221D32 ;/* #082847; */
+    background: rgb(23,30,64);
+    background: linear-gradient(68deg, rgba(23,30,64,1) 0%, rgba(21,82,139,1) 100%);
     border-radius: 15px;
     height: auto;
     margin-top: 250px;

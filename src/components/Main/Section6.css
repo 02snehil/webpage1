@@ -82,7 +82,7 @@
 .div6-4-2{
     background-color: #F7D2E2;
     border-radius: 20px;
-    height:200px;
+    height:auto;
     margin-top: 60px;
     
 }
@@ -98,6 +98,13 @@
 }
 .div6-pic-disg{
     text-align: center;
+}
+.div6-pic-logo img{
+     margin-top: 10px;
+     height: 35px;
+     width: 110px;
+     margin-left: 130px;
+     margin-bottom: 10px;
 }
 .div6-4{
     width: 100%;
@@ -187,8 +194,9 @@
         margin-left: 10px;
         height: 200px;
     }
-    .div6-4-2{
-         
+    .div6-pic-logo img{
+         width: auto;
+         margin-left: 50px;
     }
     .div6-4-2-image img{
         width: 70px;

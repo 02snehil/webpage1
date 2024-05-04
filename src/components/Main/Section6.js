@@ -5,6 +5,7 @@ import img6_2 from './image/img6_2.png'
 import img6_3 from './image/img6_3.png'
 import img6_4 from './image/img6_4.png'
 import div6_4_2_img from './image/div6_4_2_img.png'
+import logo6_4_3 from './image/logo6_4_3.png'
 
 function Section6(){
     return(
@@ -50,7 +51,10 @@ function Section6(){
                                   <img src={div6_4_2_img} alt="div6_4_2_img" />
                                </div>
                                <div className="div6-pic-name">Vishwash Kumar</div>
-                               <div className="div6-pic-disg">Product Manager  @Razorpay</div>
+                               <div className="div6-pic-disg">Product Manager</div>
+                               <div className="div6-pic-logo">
+                                  <img src={logo6_4_3} alt="logo6_4_3" />
+                               </div>
                           </div>
                     </div>
                 </div>               

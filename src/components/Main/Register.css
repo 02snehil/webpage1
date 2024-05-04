@@ -55,8 +55,12 @@ b{
     background-color: #FFFAF2;
     border-radius: 10px;
     border: 1px solid #FFFAF2;
-    width: 130%;
+    width: 120%;
     height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .registerB{
@@ -69,6 +73,9 @@ b{
     margin-top: 10px;
     cursor: pointer;
 
+}
+.registerB:hover{
+    background-color: rgba(61, 45, 27, 0.844);
 }
 .hr2,.hr3 {
     flex: 1; 

@@ -67,9 +67,13 @@
     background-color: #FFFAF2;
     border-radius: 10px;
     border: 1px solid #FFFAF2;
-    width: 95%;
+    width: 85%;
     height: 35px;
     margin-top: 9px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    font-weight: 500;
 }
 .email_login button{
     margin-top: 25px;
@@ -80,6 +84,9 @@
     color: #f9f4ea;
     font-size: 1.15em;
     cursor: pointer;
+}
+.email_login button:hover{
+    background-color: rgba(61, 45, 27, 0.844);
 }
 .or-container_login{
     display: flex;
