@@ -15,7 +15,7 @@ function Section10(){
                        CREATE A COMPELLING PORTFOLIO
                     </div>
                     <div className="container10-divisions-subheading">
-                    Work on real world projects to apply your learnings
+                      Work on real world projects to apply your learnings
                     </div>
                     <div className="container10-divisions-pictures">
                         <div className="container10-divisions-pictures-1">

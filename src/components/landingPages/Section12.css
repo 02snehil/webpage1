@@ -1,0 +1,167 @@
+.section12-container12{
+    background-color: #1f1b2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+.container12-divisions{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;    
+}
+.container12-divisions-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 30%;
+    padding-left: 30px;
+    margin-left: -100px;
+}
+.container12-divisions-content-heading{
+    margin-top: 30px;
+    text-align: left;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+.container12-divisions-content-detail{
+    font-size: 18px;
+    text-align: left;
+    color: #e1e1e1;
+    margin-top: 20px;
+}
+.container12-divisions-content-button1{
+    margin-top: 20px;
+}
+.container12-divisions-content-button1 button{
+    background-color: #683FBE;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    border: none;
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+}
+.container12-divisions-content-button2{
+    margin-top: 10px;
+}
+.container12-divisions-content-button2 button{
+    background-color: #171421;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid #533298;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container12-divisions-box{
+    background: #412872;
+    background: linear-gradient(225deg, #412872, #251C43); 
+    padding: 50px;
+    border-radius: 10px;   
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container12-divisions-box-content1,
+.container12-divisions-box-content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container12-divisions-box-content1-first,
+.container12-divisions-box-content1-second,
+.container12-divisions-box-content1-forth,
+.container12-divisions-box-content1-fifth,
+.container12-divisions-box-content1-sixth
+{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: 500;
+    text-align: left;
+}
+.container12-divisions-box-content1-third{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 8dvb;
+}
+@media only screen and (max-width: 768px){
+    .section12-container12{
+        width: 100%;
+    }
+    .container12-divisions{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .container12-divisions-bgimg img{
+        display: none;
+    }
+    .container12-divisions-content{
+        width: 100%; 
+    }
+    .container12-divisions-content-heading{
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .container12-divisions-content-detail{
+        margin-left: 80px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .container12-divisions-content-button1,
+    .container12-divisions-content-button2{
+        margin-left: 80px;
+    }
+    .container12-divisions-content-button1 button,
+    .container12-divisions-content-button2 button{
+        width: 110%;
+    }
+    .container12-divisions-box{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .container12-divisions-box-content1,
+    .container12-divisions-box-content2{
+        display: flex;
+        flex-direction: column;  
+        padding-right: 10px;
+    }
+    .container12-divisions-box-content1{
+        padding-left: 10px;
+        margin-top: 63px;
+    }
+    .container12-divisions-box-content1-first-icon{
+        font-size: 10px;
+    }
+    
+}

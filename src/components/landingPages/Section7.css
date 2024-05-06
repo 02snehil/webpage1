@@ -29,7 +29,7 @@
     overflow-x: auto;
     white-space: nowrap;
     width: 100%;
-    margin-right: 20px;
+    margin-left: 30px;
     flex-shrink: 0;
 }
 .slider-wrapper {
@@ -48,7 +48,25 @@
 .container7-divisions-slider5 img,
 .container7-divisions-slider6 img
 {
-    border-radius: 10px;
+    width: 280px;
+    height: 281px;
+}
+.container7-divisions-slider-logo5 img{
+    width: 120px;
+    height: 40px;
+}
+.container7-divisions-slider-logo6 img{
+    width: 70px;
+    height: 40px;
+    padding-left: 20px;
+}
+.container7-divisions-slider-logo1 img,
+.container7-divisions-slider-logo3 img,
+.container7-divisions-slider-logo4 img,
+.container7-divisions-slider-logo2 img{
+    width: 120px;
+    height: 40px;
+    margin-left: 80px;
 }
 .container7-divisions-slider1,
 .container7-divisions-slider2,
@@ -60,7 +78,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-left: 10px;
+    margin-left: 30px;
     flex-shrink: 0; /* Ensure that the divisions do not shrink */
     margin-right: 0px; /* Adjust spacing between divisions */
 }

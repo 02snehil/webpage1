@@ -23,7 +23,7 @@
     font-weight: 700;
     background: rgb(152,110,235);
     background: linear-gradient(90deg, rgba(152,110,235,1) 0%, rgba(253,104,179,1) 35%, rgba(253,183,134,1) 100%);
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     width: 180px;
     height: 50px;
