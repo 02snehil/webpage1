@@ -1,0 +1,118 @@
+.section14-container14{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section14-container14-launchpad{
+    background: linear-gradient(136deg, rgba(104, 63, 190, 1) 0%, rgba(73, 48, 128, 1) 89%);
+    border-radius: 20px;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section14-container14-launchpad-left{
+    padding-left: 30px;
+}
+.section14-container14-launchpad-left-heading{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section14-container14-launchpad-left-button button{
+    color: #171421;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #E8DDFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    width: 85%;
+    height: 30px;
+    cursor: pointer;
+}
+.section14-container14-launchpad-right{
+    position: relative;
+}
+.section14-container14-launchpad-right img{
+    position: relative;
+    z-index: 1;
+}
+.section14-container14-launchpad-right-details{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    top: 16%;
+    left: 40%;
+}
+.section14-container14-launchpad-right-details-enroll,
+.section14-container14-launchpad-right-details-course,
+.section14-container14-launchpad-right-details-time{
+    margin-bottom: 45px;
+}
+.enroll-heading,
+.course-heading,
+.time-heading{
+    margin-bottom: 15px; 
+    color: #CCCAD2;
+    font-size: 16px; 
+}
+.enroll-date,
+.course-date,
+.time-details{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .section14-container14{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .section14-container14-launchpad-right-img{
+        display: none;
+    }
+    .section14-container14-launchpad{
+        width: 80%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 350px;
+    }
+    .section14-container14-launchpad-left-heading{
+        font-size: 25px;
+    }
+    .section14-container14-launchpad-right{
+        width: 100%;
+    } 
+    .section14-container14-launchpad-right-details{
+        margin-top: -230px;
+        margin-left: -70px;
+        width: 100%;
+        
+    }
+    .section14-container14-launchpad-right-details-enroll,
+    .section14-container14-launchpad-right-details-course,
+    .section14-container14-launchpad-right-details-time{
+         margin-bottom: 25px;
+    }
+    .enroll-heading,
+    .course-heading,
+    .time-heading{
+        margin-bottom: 10px;
+    }
+}

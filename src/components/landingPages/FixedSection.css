@@ -1,0 +1,40 @@
+.fixed-section {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-section {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        background-color: #1C1929;  
+    }
+
+    .fixed-section-button {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .fixed-section-button button {
+        border-radius: 10px;
+        width: 80%;
+        color: aliceblue;
+        background-color: #683FBE;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        border: 1px solid aliceblue;
+        margin-left: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .fixed-section-button button:hover{
+        background-color: #2d1a56;
+        cursor: pointer;
+    }
+}

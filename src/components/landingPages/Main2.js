@@ -11,6 +11,8 @@ import Section10 from "./Section10";
 import Section11 from "./Section11";
 import Section12 from "./Section12";
 import Section13 from "./Section13";
+import FixedSection from "./FixedSection";
+import Section14 from "./Section14";
 
 function Main2(){
     return(
@@ -27,6 +29,8 @@ function Main2(){
              <Section11 /> 
              <Section12 />
              <Section13 />
+             <FixedSection />
+             <Section14 />
         </>
     );
 }

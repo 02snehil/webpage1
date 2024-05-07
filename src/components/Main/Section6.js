@@ -30,7 +30,7 @@ function Section6(){
                         <h2 style={{color:'black'}}>Become part of a global developer community.</h2>
                         <p style={{color:'black',textAlign:'start'}}>Elevate beyond local recognition. Get vetted and join a handpicked list of top developers worldwide.</p>
                     </div> 
-                </div>
+               </div>
             </div>
             <div className="division6-2">
                 <div className="grid-container2">

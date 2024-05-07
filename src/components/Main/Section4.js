@@ -1,8 +1,5 @@
 import React from 'react';
 import './Section4.css';
-import group4_2 from './image/group4_2.png';
-import group4_2_1 from './image/group4_2_1.png';
-import group4_2_2 from './image/group4_2_2.png';
 import icon4_1 from './image/icon4_1.png';
 import icon4_2 from './image/icon4_2.png';
 import icon4_3 from './image/icon4_3.png';
@@ -55,19 +52,6 @@ function Section4(){
                       </div>
                     </div>
                 </div>
-             </div>
-             <div className='image4'>
-               <div className='img4_1'>
-                <img src={group4_2} alt='group4_1' />
-               </div>
-               <div className='img4_2'>
-                 <div className='img4_2_1'>
-                   <img src={group4_2_1} alt='group4_1_1' />
-                 </div>
-                 <div className='img2_2'>
-                   <img src={group4_2_2} alt='group4_2_2' />
-                 </div>
-               </div>
              </div>
          </div>
        </>

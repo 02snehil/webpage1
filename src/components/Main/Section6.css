@@ -134,7 +134,7 @@
 @media screen and (max-width: 768px) {
    
     .container6{
-        width: 360px;
+        width: 100%;
     }
     .Container-text h1{
         font-size: 1.5em;
