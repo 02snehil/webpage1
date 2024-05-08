@@ -43,11 +43,13 @@ function Section6() {
                 </div>
                 <div className="container6-div2-details">
                     <span>AI for PMs</span> <br/><br/>
-                    Learn how to effectively use AI tools including ChatGPT, Claude, and Midjourney to
-                    assist you in your daily PM tasks, freeing up to 15 hours each week. These tools can
-                    assist you in a variety of essential tasks such as conducting thorough market research,
-                    developing insightful user research interview questions, composing detailed PRDs, and
-                    selecting the appropriate metrics.
+                      Discover how to optimize your workflow with AI tools 
+                      like ChatGPT, Claude, and Midjourney to streamline your 
+                      daily project management tasks, potentially reclaiming up 
+                      to 15 hours weekly. Leverage these powerful utilities for 
+                      comprehensive market analysis, crafting probing user research 
+                      interview inquiries, drafting intricate PRDs, and pinpointing 
+                      relevant metrics with precision.
                 </div>
                 <div className="container6-div2-image2">
                     {/* Move the image to the top */}

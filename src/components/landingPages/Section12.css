@@ -49,6 +49,9 @@
     height: 40px;
     cursor: pointer;
 }
+.container12-divisions-content-button1 :hover{
+    background-color: #533298;
+}
 .container12-divisions-content-button2{
     margin-top: 10px;
 }
@@ -76,7 +79,9 @@
     width: 40%;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
+
 .container12-divisions-box-content1,
 .container12-divisions-box-content2{
     display: flex;

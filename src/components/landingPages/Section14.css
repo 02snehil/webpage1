@@ -35,17 +35,18 @@
     color: aliceblue;
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 20px
 }
 .section14-container14-launchpad-left-button button{
     color: #171421;
     font-size: 15px;
     font-weight: bold;
     background-color: #E8DDFF;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     margin-top: 10px;
     width: 85%;
-    height: 30px;
+    height: 35px;
     cursor: pointer;
 }
 .section14-container14-launchpad-right{
