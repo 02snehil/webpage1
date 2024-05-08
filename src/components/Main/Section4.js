@@ -9,9 +9,9 @@ function Section4(){
    return(
        <>
          
-         <div className='container4'>
-            <div className='text4'>
-               <div className="heading-button-container">
+        <div className='container4'>
+          <div className='text4'>
+              <div className="heading-button-container">
                    <div className="heading4">
                        <h1>
                           <span style={{ color: " rgb(193, 158, 92)" }}>Highlight your value 

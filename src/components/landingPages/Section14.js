@@ -8,6 +8,7 @@ function Section14(){
     return(
         <>
             <div className="section14-container14">
+                <div className="section14-container14-line"></div>
                 <div className="section14-container14-launchpad">
                     <div className="section14-container14-launchpad-left">
                         <div className="section14-container14-launchpad-left-heading">
