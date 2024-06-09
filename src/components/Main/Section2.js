@@ -47,9 +47,9 @@ function Section2(){
                         GrowthSchool is the place to learn from top  
                         experts in the fields.
                     </h4>
-                    <a href="/apply-now" target="_blank">
+                    <a href="/landing" target="_blank">
                       <button className="explore_programs">
-                         Explore Programs
+                          Explore Programs 
                       </button>
                     </a>
                 </div>
